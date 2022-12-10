@@ -13,7 +13,7 @@ admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME")
 
-if str(getenv("STRING_SESSION2")).strip() == "":
+if str(getenv("STRING_SESSION2")).strip() == "BQAFzZCnmINaY0hhUI3_kJ5_-FDI_ashJtGZ3NX55-rQu2K6zULnnDNh1FNwBE5PiL5RI1Mhq8y4URjfp-pFqSKQv3qq1MfJhzq2V9Be69AWuLcUctLb-cVwDhmUiNLT0sPMDvWDxTwOt4qdN3Q-4jnRxtyhuJpDtJpR3_okw5Yr45jawG2o36YDww_Xpqz0fgtdTF6tA7MkZ_MA8LbHkNuZtPjaaFNGk9iXM5-_usXipldDPyRmX6b8wvC5C2D34iVxYDw9p4OQAyRqSlXrYmvVMGW-p_GbZC59SI6YiZQKA9u4qortUGPK1gapBSfEgmskRgTvzGvRIbNZLPuCs86YAAAAAUSZaVUA":
     SESSION2 = str(None)
 else:
     SESSION2 = str(getenv("STRING_SESSION2"))
@@ -33,23 +33,23 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_NAME = getenv("BOT_NAME", "Umk")
+BOT_TOKEN = getenv("BOT_TOKEN", "5300015911:AAFbXSfRiGrxo0aZOzUjQt5zdKI0-7yEZCE")
+BOT_NAME = getenv("BOT_NAME", "FlashV2Robot")
 
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
-OWNER_NAME = getenv("OWNER_NAME", "Zaid")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
+API_ID = int(getenv("API_ID", "16029596"))
+API_HASH = getenv("API_HASH", "8c6b3ce7f23e51dfebbdbe98a0ee674d")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Media-search:hellourluploder@cluster0.bwyz8wb.mongodb.net/?retryWrites=true&w=majority")
+OWNER_NAME = getenv("OWNER_NAME", "Lx 0980")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "FLx0980")
 ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
-BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
-OWNER_ID = getenv("OWNER_ID", "1669178360")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid2_Assistant")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
+BOT_USERNAME = getenv("BOT_USERNAME", "FlashV2Robot")
+OWNER_ID = getenv("OWNER_ID", "1903280447")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "BetterAutoFilterBot_Client")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Hollywood_0980")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "DFF_UPDATES")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1669178360").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1903280447").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/fc9d87ffd1c6f828eb7fc.png")
 START_PIC = getenv("START_PIC", "https://telegra.ph/file/a414e2cdfeaa7d4414b89.png")
