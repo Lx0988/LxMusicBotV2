@@ -11,9 +11,9 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME")
+SESSION_NAME = getenv("SESSION_NAME", "BQAFzZCnmINaY0hhUI3_kJ5_-FDI_ashJtGZ3NX55-rQu2K6zULnnDNh1FNwBE5PiL5RI1Mhq8y4URjfp-pFqSKQv3qq1MfJhzq2V9Be69AWuLcUctLb-cVwDhmUiNLT0sPMDvWDxTwOt4qdN3Q-4jnRxtyhuJpDtJpR3_okw5Yr45jawG2o36YDww_Xpqz0fgtdTF6tA7MkZ_MA8LbHkNuZtPjaaFNGk9iXM5-_usXipldDPyRmX6b8wvC5C2D34iVxYDw9p4OQAyRqSlXrYmvVMGW-p_GbZC59SI6YiZQKA9u4qortUGPK1gapBSfEgmskRgTvzGvRIbNZLPuCs86YAAAAAUSZaVUA")
 
-if str(getenv("STRING_SESSION2")).strip() == "BQAFzZCnmINaY0hhUI3_kJ5_-FDI_ashJtGZ3NX55-rQu2K6zULnnDNh1FNwBE5PiL5RI1Mhq8y4URjfp-pFqSKQv3qq1MfJhzq2V9Be69AWuLcUctLb-cVwDhmUiNLT0sPMDvWDxTwOt4qdN3Q-4jnRxtyhuJpDtJpR3_okw5Yr45jawG2o36YDww_Xpqz0fgtdTF6tA7MkZ_MA8LbHkNuZtPjaaFNGk9iXM5-_usXipldDPyRmX6b8wvC5C2D34iVxYDw9p4OQAyRqSlXrYmvVMGW-p_GbZC59SI6YiZQKA9u4qortUGPK1gapBSfEgmskRgTvzGvRIbNZLPuCs86YAAAAAUSZaVUA":
+if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
 else:
     SESSION2 = str(getenv("STRING_SESSION2"))
